@@ -1,0 +1,6 @@
+things to do first:
+create db "partytreats"
+create table "users" with 6 columns 
+make sure to put PARTYTREATS in htdocs
+MAKE SURE TO RUN THE SERVER first
+run setup_admin.php in browser to create the admin

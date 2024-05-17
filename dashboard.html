@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <style>
+        .back-arrow {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  font-size: 24px;
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+.back-arrow:hover {
+  color: #555; /* Change color on hover */
+}
+.btn-next {
+  width: 300px;
+  margin-bottom: 8px;
+  background-color: #343a40; /* Dark background color */
+  color: #fff; /* Text color */
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-next:hover {
+  background-color: #23272b; /* Darker background color on hover */}
+    </style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="bootstrap-5.3.2-dist/css/bootstrap.min.css">
+    
+    <title>Booking INFORMATION</title>
+</head>
+
+<body background="bootstrap-5.3.2-dist/images/pngtree birthday blurry.png" style="background-size: cover;">
+    <nav>
+        <div class="nav-links">
+            <header style="height: 60px; width: 90px; margin-top: 15px; ">
+                <a href="partycschedule.html" style="height: 60px; width: 90px; " class="back-arrow">&#8592; back</a>
+                
+            </header>
+            
+        </div>
+    </nav>
+    <form action="partycschedule.html">
+        <div class="container-fluid text-center mt-4 d-flex align-items-stretch " style=" margin-left: 0%;">
+            <div class="col-md-6">
+
+                <div class="card" style="width: 6.2in; margin-right: 15px; margin-left: 20px;">
+                    <div class="card-body" style="background-color: rgba(255, 3, 200, 0.429); ">
+
+                        <h1 style="color: black; text-emphasis-style:unset;">BOOKING INFORMATION</h1>
+                        <div >
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <input type="text" style="width: 300px; margin-bottom: 20px; " class="form-control " placeholder="Celebrants Name" name="Celebrants_Name" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="tel" style="width: 220px; margin-bottom: 20px; margin-inline-start: 40px;" class="form-control " placeholder="Contact No" name="Contact_No" required>
+                                </div>
+                            </div>
+                        </div>
+                        <div >
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <input type="number" style="width: 100%; margin-bottom: 20px;" class="form-control " placeholder="Celebrant's Age" name="Celebrants_Age" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="text" style="width: 100%; margin-bottom: 20px; " class="form-control " placeholder="Event Venue" name="Event_Venue" required>
+                                </div>
+                            </div>
+                        </div>
+                        <div >
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <input type="text" style="width: 100%; margin-bottom: 20px; " class="form-control " placeholder="Mothers Name" name="Mothers_Name" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="text" style="width: 100%; margin-bottom: 20px;" class="form-control " placeholder="Fathers Name" name="Fathers_Name" required>
+                            
+                                </div>
+                            </div>
+                            <form class="was-validated" style="height: max-content;">
+                                <div class="mb-3" style="width: 565px;">
+                                  <label for="validationTextarea" class="form-label"></label>
+                                  <textarea class="form-control" id="validationTextarea" placeholder="Notes" name="Notes" required></textarea>
+                                  <div class="invalid-feedback"></div>
+                                </div>
+                        </div>
+                        <input type="submit" name="save" value="Confirm" style="width: 250px; margin-bottom: 10px; margin-top: 0.5in; margin-left: 0px; " class="btn btn-success"></button>
+                        <button style="width: 250px; margin-bottom: 10px; margin-top: 0.5in; margin-left: 40px;" class="btn btn-danger"> Cancel </button>
+                        
+                    </div>
+                </div>          
+
+            </div>
+            <div class="col-md-6">
+
+                <div class="card" style="width: 6.2in; height:4in ;">
+                    <div class="card-body" style="background-color: rgba(255, 3, 200, 0.429)">
+
+                        <h1 style="color: black; text-emphasis-style:unset;">SCHEDULES WITH IN THE DAY</h1>
+                        <div >
+                            <div class="row">
+                                <form class="was-validated" style=" margin-bottom: 10px;">
+                                    <div class="mb-3" style="width: 565px; height: 0.5in;">
+                                      <label for="validationTextarea" class="form-label"></label>
+                                      <textarea class="form-control" id="validationTextarea" placeholder="" required>BEA'S 10TH BIRTHDAY 10:30AM</textarea>
+                                      <div class="invalid-feedback"></div>
+                                    </div>
+                                    <form class="was-validated" style=" margin-bottom:auto;">
+                                        <div class="mb-3" style="width: 565px; height: 0.5in ;">
+                                          <label for="validationTextarea" class="form-label"></label>
+                                          <textarea class="form-control" id="validationTextarea" placeholder="" required>THALEA'S 1ST BIRTHDAY 4:00PM</textarea>
+                                          <div class="invalid-feedback"></div>
+                                        </div>
+                                        <form class="was-validated" style=" margin-bottom: 10px;">
+                                            <div class="mb-3" style="width: 565px; height: 0.5in;">
+                                              <label for="validationTextarea" class="form-label"></label>
+                                              <textarea class="form-control" id="validationTextarea" placeholder="" required>LYRICA'S BAPTISM 8:00AM</textarea>
+                                              <div class="invalid-feedback"></div>
+                                            </div>
+                                            <form class="was-validated" style=" height: max-content;margin-bottom: 10px;">
+                                                <div class="mb-3" style="width: 565px;height: 0.5in;">
+                                                  <label for="validationTextarea" class="form-label"></label>
+                                                  <textarea class="form-control" id="validationTextarea" placeholder="" required>EMMA'S 60TH BIRTHDAY 5:00PM</textarea>
+                                                  <div class="invalid-feedback"></div>
+                                                </div>
+                                            </form>
+                                        </form>
+                                    </form>
+                                </form>            
+                            </div>
+                        </div>
+                    </div>    
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>
